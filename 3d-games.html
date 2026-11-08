@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive 3D Games (Unity & Blender) | Aayush Samant</title>
+    <style>
+        :root {
+            --primary: #003057;
+            --accent: #EAAA00;
+            --dark: #1F2937;
+            --light: #F9FAFB;
+            --card-bg: #FFFFFF;
+            --text-muted: #6B7280;
+            --border: #E5E7EB;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .back-btn {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .back-btn:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .project-detail-card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 2.5rem;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-size: 2.2rem;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .tech-tag {
+            background-color: #E5E7EB;
+            color: var(--dark);
+            font-size: 0.85rem;
+            padding: 0.3rem 0.7rem;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .section-block {
+            margin-bottom: 2rem;
+        }
+
+        .section-block h2 {
+            color: var(--primary);
+            font-size: 1.3rem;
+            margin-bottom: 0.8rem;
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            padding-bottom: 0.2rem;
+        }
+
+        .section-block p, .section-block ul {
+            color: var(--dark);
+            font-size: 1.05rem;
+        }
+
+        .section-block ul {
+            padding-left: 1.5rem;
+        }
+
+        .section-block li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="portfolio.html" class="logo">Aayush Samant <span>| GT ECE</span></a>
+            <a href="portfolio.html#projects" class="back-btn">&larr; Back to Portfolio</a>
+        </nav>
+    </header>
+
+    <main>
+        <article class="project-detail-card">
+            <h1>Interactive 3D Games (Unity & Blender)</h1>
+            <div class="subtitle">Developed space exploration and racing games with dynamic movement controllers while modeling assets in Blender/Fusion 360.</div>
+
+            <div class="tech-stack">
+                <span class="tech-tag">Unity</span><span class="tech-tag">C#</span><span class="tech-tag">Blender</span><span class="tech-tag">Fusion 360</span><span class="tech-tag">3D Modeling</span>
+            </div>
+
+            
+            <div class="section-block">
+                <h2>Project Overview</h2>
+                <p>Designed and built interactive 3D games—including a space exploration game and a high-speed racing game—as part of the Atlanta International School Software Development Club.</p>
+            </div>
+            
+            <div class="section-block">
+                <h2>What I Did & Technical Execution</h2>
+                <p>Coded in C# for unity, where I made a mock solar system, which planets with indepent roations and collisons, then allowed a player model to explore that planets.</p>
+            </div>
+            
+            <div class="section-block">
+                <h2>Results & Personal Takeaways</h2>
+                <p>Summarize what you learned regarding physics engines, vector mathematics, dynamic collision detection, and user interface optimization.</p>
+            </div>
+            
+
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aayush Samant | School of Electrical and Computer Engineering | Georgia Institute of Technology</p>
+    </footer>
+
+</body>
+</html>
